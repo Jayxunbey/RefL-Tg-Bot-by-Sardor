@@ -1,0 +1,40 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_bot
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      repositories:
+        enabled: false
+
+bot:
+  token: 6979927831:AAEYBXF5Jh2ORqUX4H9Bms9cqTrhmEyWC0Q
+  username: Universal_Jayxuns_bot
+  production-mode: false
+  domain:
+  i18:
+    enabled: true
+    key:
+      back-button: back-button
+      contact-button: phone-button
+      location-button: location-button
+      back-button-prefix: BACK_
+server:
+  port: 2020
+
+
+
+
+
+
+
